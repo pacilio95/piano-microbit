@@ -1,0 +1,23 @@
+{
+    "name": "piano microbit",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "TouchPiano": "github:waveshare/touchpiano#d572746de296749d18ad9e1d689e53367000f15a",
+        "pxt-kitronik-klef-piano": "github:kitronikltd/pxt-kitronik-klef-piano#v0.0.14"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
